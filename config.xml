@@ -48,7 +48,6 @@
     <preference name="splash-screen-duration" value="12000"/>
     
     <gap:plugin name="org.apache.cordova.network-information"/>
-    <gap:plugin name="it.mobimentum.phonegapspinnerplugin" />
     
     <access origin="*"/>
 
