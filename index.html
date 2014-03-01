@@ -11,8 +11,8 @@
                 
                 var ref = window.open('http://www.pb.abrasel.com.br/guia');
 
-                //document.addEventListener("online", onOnline, false);
-                //document.addEventListener("offline", onOffline, false);
+                ref.addEventListener("online", onOnline, false);
+                ref.addEventListener("offline", onOffline, false);
                 ref.addEventListener("backbutton", function(e) {
 
                     /*navigator.notification.confirm(
