@@ -11,9 +11,9 @@
                 
                 var ref = window.open('http://www.pb.abrasel.com.br/guia');
 
-                document.addEventListener("online", onOnline, false);
-                document.addEventListener("offline", onOffline, false);
-                document.addEventListener("backbutton", function(e) {
+                //document.addEventListener("online", onOnline, false);
+                //document.addEventListener("offline", onOffline, false);
+                ref.addEventListener("backbutton", function(e) {
 
                     /*navigator.notification.confirm(
                      'Você realmente deseja sair do aplicativo?',
