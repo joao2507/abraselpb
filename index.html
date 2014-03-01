@@ -7,7 +7,9 @@
         <script type="text/javascript">
             document.addEventListener("deviceready", onDeviceReady, false);
             function onDeviceReady() {
-                window.location = "http://www.pb.abrasel.com.br/guia";
+                //window.location = "http://www.pb.abrasel.com.br/guia";
+                
+                var ref = window.open('http://apache.org');
 
                 document.addEventListener("online", onOnline, false);
                 document.addEventListener("offline", onOffline, false);
@@ -29,6 +31,10 @@
             }
 
             function onOnline() {
+            }
+
+            function showAlert(texto) {
+                alert(texto);
             }
         </script>
     </head> 
