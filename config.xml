@@ -3,11 +3,9 @@
 
     <name>Abrasel - PB</name>
 
-    <description> </description>
+    <description> Guia 2014 da Abrasel Paraíba </description>
 
-    <author email="contato@bossacriativa.com.br" href="http://www.bossacriativa.com.br">
-        Bossa Criativa
-    </author>
+    <author email="contato@bossacriativa.com.br" href="http://www.bossacriativa.com.br">Bossa Criativa</author>
 
     <!--<gap:splash gap:density="ldpi" gap:platform="android" src="splash/android/screen-ldpi-portrait.png"/>
     <gap:splash gap:density="mdpi" gap:platform="android" src="splash/android/screen-mdpi-portrait.png"/>
